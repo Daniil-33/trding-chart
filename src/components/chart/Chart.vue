@@ -28,10 +28,10 @@ const CanvasRef = ref(null)
 let chartInstance = null
 
 const buyImage = new Image();
-buyImage.src = '/buy.png'
+buyImage.src = 'https://Daniil-33.github.io/trding-chart/buy.png'
 
 const sellImage = new Image()
-sellImage.src = '/sell.png'
+sellImage.src = 'https://Daniil-33.github.io/trding-chart/sell.png'
 
 const drawArrowsPlugin = {
 	id: 'drawArrows',
